@@ -1,0 +1,33 @@
+.btn-primary{
+    background-color: var(--primary-color) !important;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: var(--global-transition);
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: var(--primary-color-lighter) !important;
+    transition: var(--global-transition);
+}
+
+.btn-primary:disabled{
+    opacity: 0.2;
+}
+
+.btn-secondary{
+    background-color: var(--secondary-color) !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: var(--global-transition);
+    color: rgba(0,0,0,0.7);
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color: var(--secondary-color-darker) !important;
+    transition: var(--global-transition);
+    color: rgba(0,0,0,0.7);
+}
+
+.btn-secondary:disabled{
+    opacity: 0.2;
+}
