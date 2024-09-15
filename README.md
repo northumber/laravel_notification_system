@@ -53,7 +53,7 @@ Notifications::notifiy('some text as notification');
   $users = User::all();
   ```
   for now will send a notification to all the users, so it will create a record for each user.
-### [5] Notes
+## Notes
 - To mark a notification as read, you can simply click on it, this will hide the red dot.
 - To hide "Unread notifications" mark all notifications as read.
 - The style `notifications.blade.php` view was made using Bootstrap and FontAwesome, so the style will not be visible unless you include them. Alternatively, you can use you own styling by editing the `.css` and the view.
