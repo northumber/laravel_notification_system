@@ -26,7 +26,7 @@ php artisan migrate --path=/database/migrations/2024_09_06_000000_create_notific
 Or you can simply execute the SQL query (MySQL) in the file `/database/migrations/notifications.sql`
 
 You are ready to go!
-### [3] Utilization
+## Utilization
 Include in you navigation or where you want your button the blade file:
 ```
 @include('layouts.notifications')
@@ -40,7 +40,7 @@ and use the function:
 ```
 Notifications::notifiy('some text as notification');
 ```
-### [4] Personalization
+## Personalization
 - Choose the number of last notification to see:
   In `app\Providers\NotificationServiceProvider.php` you will find this line of code
   ```
